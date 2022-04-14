@@ -19,10 +19,31 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 3rem;
-  background-color: aquamarine;
-  padding: 2rem 2rem 2rem 3rem;
+  padding: 4rem 5rem 2rem 3rem;
   margin-bottom: 8rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.sign-link:link,
+.sign-link:visited {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(85, 28, 160);
+  transition: all 0.3s;
+}
+
+.sign-link:hover,
+.sign-link:active {
+  color: rgb(209, 46, 122);
 }
 
 .img {
@@ -44,8 +65,7 @@ header {
   padding: 4rem 1rem;
 }
 
-.signin:link,
-.signin:visited {
+.signin {
   display: grid;
   background-color: white;
   width: 30%;
@@ -64,12 +84,17 @@ header {
   margin-left: 15rem;
   margin-top: 1rem;
   color: rgb(65, 9, 176);
+  transition: all 0.3s;
+}
+
+.freshers:hover {
+  color: rgb(209, 46, 122);
 }
 
 .desc {
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.6;
   letter-spacing: 0.5px;
   margin-top: 5rem;
   margin-bottom: 2rem;
