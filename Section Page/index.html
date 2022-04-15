@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Section</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="/Section Page/script.js"></script>
   </head>
   <body>
     <div class="sidemenu">
@@ -24,18 +25,39 @@
         />
       </svg>
     </div>
-    <div class="search"></div>
+
+    <div class="search">
+      <input class="search-box" type="text" placeholder="Search" />
+      <div class="profile-box">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="profile-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+          />
+        </svg>
+      </div>
+      <div class="profile"></div>
+    </div>
+
     <section class="filter">
       <h2 class="filter-heading">Popular Topics</h2>
       <div class="tags">
-        <div class="tag">blockchain</div>
-        <div class="tag">flutter</div>
-        <div class="tag tag-selected">web development</div>
-        <div class="tag">machine learning</div>
-        <div class="tag">AI</div>
-        <div class="tag">kotlin</div>
-        <div class="tag">java</div>
-        <div class="tag">python</div>
+        <button type="button" class="tag">blockchain</button>
+        <button type="button" class="tag">flutter</button>
+        <button type="button" class="tag">web development</button>
+        <button type="button" class="tag">machine learning</button>
+        <button type="button" class="tag">AI</button>
+        <button type="button" class="tag">kotlin</button>
+        <button type="button" class="tag">java</button>
+        <button type="button" class="tag">python</button>
       </div>
 
       <h2 class="filter-heading">Categories</h2>
@@ -58,6 +80,165 @@
         </div>
       </div>
     </section>
-    <main class="articles"></main>
+
+    <main class="articles">
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >The new Porsche 911 is the best sports car ever made. Period.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Buri Buri Zaimon</h3>
+            <p class="date">April 15</p>
+          </div>
+        </div>
+        <img
+          class="article-img"
+          src="/Section Page/imgs/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >How to photograph a flower. Capturing the moment.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author-2.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Kayla Adams</h3>
+            <p class="date">June 17</p>
+          </div>
+        </div>
+        <img class="article-img" src="/Section Page/imgs/flower.jpg" alt="" />
+      </div>
+
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >How I got into Amazon as an SDE.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author-3.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Martin Burns</h3>
+            <p class="date">January 4</p>
+          </div>
+        </div>
+        <img class="article-img" src="/Section Page/imgs/amazon.jpg" alt="" />
+      </div>
+
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >How to photograph a flower. Capturing the moment.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author-2.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Kayla Adams</h3>
+            <p class="date">June 17</p>
+          </div>
+        </div>
+        <img class="article-img" src="/Section Page/imgs/flower.jpg" alt="" />
+      </div>
+
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >How I got into Amazon as an SDE.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author-3.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Martin Burns</h3>
+            <p class="date">January 4</p>
+          </div>
+        </div>
+        <img class="article-img" src="/Section Page/imgs/amazon.jpg" alt="" />
+      </div>
+
+      <div class="article">
+        <div class="article-content">
+          <a href="#" class="article-heading"
+            >The new Porsche 911 is the best sports car ever made. Period.</a
+          >
+
+          <div class="article-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            beatae officiis similique blanditiis dolorem quod officia dolores
+            eius unde amet animi, voluptatum libero laboriosam eum sequi
+            laudantium numquam dicta voluptatem?
+          </div>
+          <div class="author-box">
+            <img
+              class="author-img"
+              src="/Section Page/imgs/author.jpg"
+              alt=""
+            />
+            <h3 class="author-info">Buri Buri Zaimon</h3>
+            <p class="date">April 15</p>
+          </div>
+        </div>
+        <img
+          class="article-img"
+          src="/Section Page/imgs/campbell-3ZUsNJhi_Ik-unsplash.jpg"
+          alt=""
+        />
+      </div>
+    </main>
   </body>
 </html>
