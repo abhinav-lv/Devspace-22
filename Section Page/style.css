@@ -103,8 +103,8 @@ body {
   display: inline-block;
   padding: 0.2rem 0.5rem;
   border-style: none;
-  background-color: rgb(228, 216, 255);
-  color: rgb(64, 47, 124);
+  background-color: #e4d8ff;
+  color: #402f7c;
   border-radius: 3rem;
   margin-bottom: 1rem;
 
@@ -128,12 +128,22 @@ body {
 }
 
 .category-box {
+  width: 100%;
   margin-bottom: 1rem;
+
   display: flex;
   padding: 0.5rem 0.8rem;
   border-radius: 0.4rem;
+
   align-items: center;
   justify-content: space-between;
+
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+
+  border-style: none;
+
   transition: all 0.3s;
 }
 
@@ -148,6 +158,8 @@ body {
 
 .category-number {
   color: rgb(86, 75, 126);
+  font-family: "Nunito";
+  font-weight: 600;
 }
 
 /* ARTICLES SECTION */
